@@ -1,0 +1,83 @@
+.warna1 {
+    background-color: rgb(104, 81, 54);
+}
+
+.warna2 {
+    background-color: rgb(64, 148, 148);
+}
+
+.warna3 {
+    background-color: rgb(64, 83, 100);
+}
+
+.warna4 {
+    background-color: rgb(228, 82, 82);
+}
+
+.banner {
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.highlighted-kategori {
+    height: 250px;
+}
+
+.man {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/man.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.woman {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/woman1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.shoes {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/shoes.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+  .text-kategori {
+    color: rgb(229, 255, 0);
+    font-family: Verdana, sans-serif;
+  }
+
+.image-box{
+    height: 250px;
+}
+
+.image-box img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: top;
+}
+
+.list-group a{
+    text-decoration: none;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.text-harga{
+    color: rgb(231, 192, 17);
+}
+
+@media print{
+    /* and here everything you want print only */
+    table tr:first-child{
+        display: none;
+    }
+}
